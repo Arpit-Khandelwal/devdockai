@@ -1,0 +1,21 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "contracts": {
+    "SocialBounty": "./contracts/SocialBounty.cdc"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "0x9d2ade18cb6bea1a",
+      "key": "your-private-key"
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "emulator-account": ["SocialBounty"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: node pages/index.js
+Output:
+bash: node: command not found
+Exit Code: 127
+----
+Command: clear
+Output:
+[3J[H[2J
+Exit Code: 0
+----
